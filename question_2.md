@@ -8,16 +8,16 @@ corresponding to individual nucleotide bases.
 
 ´´´
 promoter = "TAAAGCCAAATTT"
-5_prime_UTR = "GGGTAACCTTGA"
+five_prime_UTR = "GGGTAACCTTGA"
 start_codon = "ATG"
 exon1 = "ATCCGGAATCCAATGC"
 intron = "ATGGCCAAGGGTTAAA"
 exon2 = "AAATGGCCAGTACG"
 stop_codon = "TAG"
-3_prime_UTR = "AATTTGGGAACCAGTA"
+three_prime_UTR = "AATTTGGGAACCAGTA"
 
-my_fav_gene = promoter + 5_prime_UTR + start_codon + exon1 + \
-              intron + exon2 + stop_codon + 3_prime_UTR
+my_fav_gene = promoter + five_prime_UTR + start_codon + exon1 + \
+              intron + exon2 + stop_codon + three_prime_UTR
 
 print("My favoruite gene sequence is as follows:")
 print(my_fav_gene)
